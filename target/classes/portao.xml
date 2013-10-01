@@ -1,0 +1,127 @@
+<br.com.pn.business.gui.PetriNetUI>
+	<name>pilha.xml</name>
+	<places>
+		<br.com.pn.business.gui.PlaceUI>
+			<x>169</x>
+			<y>50</y>
+			<name>P0</name>
+			<position>0</position>
+			<tokens>1</tokens>
+			<id>P0</id>
+		</br.com.pn.business.gui.PlaceUI>
+		<br.com.pn.business.gui.PlaceUI>
+			<x>169</x>
+			<y>150</y>
+			<name>P1</name>
+			<position>1</position>
+			<tokens>0</tokens>
+			<id>P1</id>
+		</br.com.pn.business.gui.PlaceUI>
+	</places>
+	<transitions>
+		<br.com.pn.business.gui.TransitionUI>
+			<orientation>3</orientation>
+			<x>206</x>
+			<y>100</y>
+			<name>T0</name>
+			<position>0</position>
+			<id>T0</id>
+			<seft>0.0</seft>
+			<slft>0.0</slft>
+			<densityCurve>0</densityCurve>
+		</br.com.pn.business.gui.TransitionUI>
+		<br.com.pn.business.gui.TransitionUI>
+			<orientation>3</orientation>
+			<x>126</x>
+			<y>100</y>
+			<name>T1</name>
+			<position>1</position>
+			<id>T1</id>
+			<seft>0.0</seft>
+			<slft>0.0</slft>
+			<densityCurve>0</densityCurve>
+		</br.com.pn.business.gui.TransitionUI>
+	</transitions>
+	<arcs>
+		<br.com.pn.business.gui.ArcUI>
+			<points>
+				<java.awt.Point>
+					<x>180</x>
+					<y>55</y>
+				</java.awt.Point>
+				<java.awt.Point>
+					<x>206</x>
+					<y>100</y>
+				</java.awt.Point>
+			</points>
+			<extreme>0</extreme>
+			<weight>1</weight>
+			<isInput>true</isInput>
+			<position>0</position>
+			<place class="br.com.pn.business.gui.PlaceUI"
+				reference="../../../places/br.com.pn.business.gui.PlaceUI" />
+			<transition class="br.com.pn.business.gui.TransitionUI"
+				reference="../../../transitions/br.com.pn.business.gui.TransitionUI" />
+		</br.com.pn.business.gui.ArcUI>
+		<br.com.pn.business.gui.ArcUI>
+			<points>
+				<java.awt.Point>
+					<x>126</x>
+					<y>100</y>
+				</java.awt.Point>
+				<java.awt.Point>
+					<x>158</x>
+					<y>55</y>
+				</java.awt.Point>
+			</points>
+			<extreme>0</extreme>
+			<weight>1</weight>
+			<isInput>false</isInput>
+			<position>1</position>
+			<place class="br.com.pn.business.gui.PlaceUI"
+				reference="../../../places/br.com.pn.business.gui.PlaceUI" />
+			<transition class="br.com.pn.business.gui.TransitionUI"
+				reference="../../../transitions/br.com.pn.business.gui.TransitionUI[2]" />
+		</br.com.pn.business.gui.ArcUI>
+		<br.com.pn.business.gui.ArcUI>
+			<points>
+				<java.awt.Point>
+					<x>206</x>
+					<y>100</y>
+				</java.awt.Point>
+				<java.awt.Point>
+					<x>169</x>
+					<y>150</y>
+				</java.awt.Point>
+			</points>
+			<extreme>0</extreme>
+			<weight>1</weight>
+			<isInput>false</isInput>
+			<position>2</position>
+			<place class="br.com.pn.business.gui.PlaceUI"
+				reference="../../../places/br.com.pn.business.gui.PlaceUI[2]" />
+			<transition class="br.com.pn.business.gui.TransitionUI"
+				reference="../../../transitions/br.com.pn.business.gui.TransitionUI" />
+		</br.com.pn.business.gui.ArcUI>
+		<br.com.pn.business.gui.ArcUI>
+			<points>
+				<java.awt.Point>
+					<x>169</x>
+					<y>150</y>
+				</java.awt.Point>
+				<java.awt.Point>
+					<x>126</x>
+					<y>100</y>
+				</java.awt.Point>
+			</points>
+			<extreme>1</extreme>
+			<weight>1</weight>
+			<isInput>true</isInput>
+			<position>3</position>
+			<place class="br.com.pn.business.gui.PlaceUI"
+				reference="../../../places/br.com.pn.business.gui.PlaceUI[2]" />
+			<transition class="br.com.pn.business.gui.TransitionUI"
+				reference="../../../transitions/br.com.pn.business.gui.TransitionUI[2]" />
+		</br.com.pn.business.gui.ArcUI>
+	</arcs>
+</br.com.pn.business.gui.PetriNetUI>

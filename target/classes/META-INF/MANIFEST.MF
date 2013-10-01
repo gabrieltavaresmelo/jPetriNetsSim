@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Built-By: gabriel
+Build-Jdk: 1.7.0_25
+Class-Path: dependency-jars/xstream-1.2.1.jar dependency-jars/xpp3_min
+ -1.1.3.4.O.jar
+Main-Class: br.com.pn.App
+Created-By: Maven Integration for Eclipse
+
